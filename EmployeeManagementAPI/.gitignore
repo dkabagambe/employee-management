@@ -1,0 +1,51 @@
+# Ignore NuGet packages
+*.nuget.props
+*.lock.json
+packages/
+
+# Ignore build output
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore user-specific files
+*.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+*.log
+*.json
+*.db
+
+# Ignore .NET artifacts
+*.cache
+*.log
+*.vspscc
+
+# Ignore project-specific files
+appsettings.json
+appsettings.Development.json
+
+# Ignore local HTTP files (optional, if used for testing)
+*.http
+
+# Ignore IDE-specific files
+*.idea/
+*.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+
+# Ignore node_modules if included in the backend directory (though it should be in the frontend directory)
+node_modules/
+
+# Ignore compiled binary files
+*.dll
+*.exe
